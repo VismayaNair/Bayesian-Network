@@ -20,7 +20,7 @@ Step 13:Generate the graph using networkx<br/>
 Step 14:Update margins and display the graph using matplotlib.pyplot<br/>
 
 ## Program:
-'''
+~~~
 !pip install pybbn
 import pandas as pd
 import networkx as nx
@@ -83,7 +83,7 @@ ax=plt.gca()
 ax.margins (0.20)
 plt.axis("off")
 plt.show() 
-'''
+~~~
 ## Output:
 ![image](https://github.com/VismayaNair/Bayesian-Network/assets/93427210/1c12a879-d3e7-4a35-9583-da6b69dc2bb6)
 
